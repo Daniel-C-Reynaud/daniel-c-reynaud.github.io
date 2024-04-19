@@ -1,4 +1,4 @@
-* {
+* > button {
      user-select: none;
 }
 
@@ -64,7 +64,7 @@ nav > h1.mp {
      width: 40px;
 }
 
-nav > h1#hamburger {
+.textsec > h1#hamburger {
      align-self: end;
      display: flex;
      justify-self: end;
@@ -72,7 +72,7 @@ nav > h1#hamburger {
      height: 50px;
      justify-content: center;
      align-items: center;
-     font-size: 3.4em;
+     font-size: 2.4em;
      border-radius: 5px;
      padding: 5px;
 }
