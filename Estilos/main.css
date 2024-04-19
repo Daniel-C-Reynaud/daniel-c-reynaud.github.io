@@ -6,6 +6,11 @@
      font-family: "Roboto";
 }
 
+p {
+     line-height: 10em;
+     color: white;
+}
+
 body {
      background-color: rgb(5, 5, 15);
 }
@@ -17,10 +22,12 @@ body {
 section#cabeçalho {
      display: flex;
      justify-content: space-between;
-     margin: 50px auto;
      color: white;
      width: 70%;
      align-items: center;
+     position: fixed;
+     margin-top: 50px;
+     left: 12.5%;
 }
 
 header {
@@ -43,11 +50,14 @@ nav > h1 {
      background: none;
      border: 0;
      color: rgb(95, 95, 95);
+     transition: color 0.2s ease;
 }
 
-.botoesnav:hover {
+.botoesnav:focus, .botoesnav:hover {
      cursor: pointer;
      color: white;
      transform: scale(1.05);
+     outline-color: black;
+     outline-width: 100px;
      transition-duration: 0.2s;
 }

@@ -1,11 +1,15 @@
-* > button {
+* h1, button {
      user-select: none;
+     outline: none !important;
+     -webkit-tap-highlight-color: transparent;
 }
 
 section#cabeçalho {
      margin: 0;
      width: 100%;
      display: block;
+     width: 100%;
+     left: -2.5%;
 }
 
 
@@ -33,6 +37,7 @@ section.textsec {
      font-size: 1em;
      align-items: start;
      background-color: rgb(5, 5, 15);
+     width: 100vw;
 }
 
 .textsec > h1 {
@@ -43,25 +48,6 @@ section.textsec {
 
 .textsec > h1#hamburger {
      font-size: 2em;
-}
-
-nav {
-     width: 100vw;
-     display: flex;
-     flex-direction: column;
-}
-
-nav > h1 {
-     justify-content: space-around;
-}
-
-nav > button{
-     margin: 20px;
-}
-
-nav > h1.mp {
-     display: inline-flex;
-     width: 40px;
 }
 
 .textsec > h1#hamburger {
@@ -82,4 +68,23 @@ nav > h1.mp {
      background-color: #fff;
      transition-duration: 0.2s;
      color: #000;
+}
+
+nav {
+     width: 100vw;
+     display: flex;
+     flex-direction: column;
+}
+
+nav > h1 {
+     justify-content: space-around;
+}
+
+nav > button{
+     margin: 20px;
+}
+
+nav > h1.mp {
+     display: inline-flex;
+     width: 40px;
 }
