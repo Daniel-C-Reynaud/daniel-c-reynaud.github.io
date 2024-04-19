@@ -1,5 +1,5 @@
 * {
-     webkitcolo
+     user-select: none;
 }
 
 section#cabeçalho {
@@ -8,9 +8,6 @@ section#cabeçalho {
      display: block;
 }
 
-button {
-     user-select: none;
-}
 
 .botoesnav {
      display: flex;
@@ -35,13 +32,13 @@ section.textsec {
      justify-content: space-between;
      font-size: 1em;
      align-items: start;
-     /* background-color: #ffffff79; */
+     background-color: rgb(5, 5, 15);
 }
 
 .textsec > h1 {
+     padding: 7px;
      margin: 0 40px;
      font-size: 1.4em;
-     padding: 10px;
 }
 
 .textsec > h1#hamburger {
@@ -54,6 +51,10 @@ nav {
      flex-direction: column;
 }
 
+nav > h1 {
+     justify-content: space-around;
+}
+
 nav > button{
      margin: 20px;
 }
@@ -61,10 +62,6 @@ nav > button{
 nav > h1.mp {
      display: inline-flex;
      width: 40px;
-}
-
-nav > h1 {
-     justify-content: space-around;
 }
 
 nav > h1#hamburger {

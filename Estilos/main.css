@@ -25,7 +25,7 @@ section#cabeçalho {
 
 header {
      display: flex;
-     background-color: #fff;
+     /* background-color: #fff; */
 }
 
 header > h1 {
@@ -37,9 +37,9 @@ nav > h1 {
 }
 
 .botoesnav {
-     margin-left: 40px;
+     margin-left: 20px;
      padding: 10px;
-     font-size: 2em;
+     font-size: 1.4em;
      background: none;
      border: 0;
      color: rgb(95, 95, 95);
