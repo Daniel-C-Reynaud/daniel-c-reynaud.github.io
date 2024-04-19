@@ -1,63 +1,70 @@
-@charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-* {
-     padding: 0;
-     margin: 0;
-     font-family: "Roboto";
-}
+/* Controle */
 
-p {
-     line-height: 10em;
-     color: white;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+   padding: 0;
+   margin: 0;
+   font-family: Poppins;
 }
 
 body {
-     background-color: rgb(5, 5, 15);
+   background-color: rgb(5, 5, 15);
 }
 
-.textsec {
-     display: none;
+header > .header > img {
+   width: 150px;
+}  /* Fim */
+
+
+/* Cabeçalho */
+
+header > .header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   max-width: 1280px;
+   margin: auto;
+   padding: 30px 50px;
 }
 
-section#cabeçalho {
-     display: flex;
-     justify-content: space-between;
-     color: white;
-     width: 70%;
-     align-items: center;
-     position: fixed;
-     margin-top: 50px;
-     left: 12.5%;
+.header > nav > ul {
+   list-style-type: none;
 }
 
-header {
-     display: flex;
-     /* background-color: #fff; */
+.header > nav > ul > li {
+   padding: 20px;
+   font-size: 1.4em;
+   font-weight: 600;
+   display: inline-block;
 }
 
-header > h1 {
-     font-size: 2.4em;
+ul a {
+   color: rgb(95, 95, 95);
+   text-decoration: none;
+   transition: color 0.2s ease-out, transform 0.2s ease-out;
+   display: inline-block;
 }
 
-nav > h1 {
-     display: none;
+ul a:hover, ul a:focus {
+   color: white;
+   transform: scale(1.05);
 }
 
-.botoesnav {
-     margin-left: 20px;
-     padding: 10px;
-     font-size: 1.4em;
-     background: none;
-     border: 0;
-     color: rgb(95, 95, 95);
-     transition: color 0.2s ease;
+.header button {
+   padding: 15px 35px;
+   font-size: 1.7em;
+   color: white;
+   background-color: #26ff00;
+   border: 0;
+   border-radius: 30px;
+   text-shadow: 1px 1px 6px black;
+   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+   cursor: pointer;
 }
 
-.botoesnav:focus, .botoesnav:hover {
-     cursor: pointer;
-     color: white;
-     transform: scale(1.05);
-     outline-color: black;
-     outline-width: 100px;
-     transition-duration: 0.2s;
+
+.header button:focus, .header button:hover {
+   box-shadow: 0 0 30px #26ff00;
+   transform: scale(1.05);
 }
