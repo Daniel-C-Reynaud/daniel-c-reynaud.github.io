@@ -1,7 +1,15 @@
+* {
+     webkitcolo
+}
+
 section#cabeçalho {
      margin: 0;
      width: 100%;
      display: block;
+}
+
+button {
+     user-select: none;
 }
 
 .botoesnav {
