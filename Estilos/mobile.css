@@ -35,7 +35,7 @@ section.textsec {
      justify-content: space-between;
      font-size: 1em;
      align-items: start;
-     background-color: #ffffff79;
+     /* background-color: #ffffff79; */
 }
 
 .textsec > h1 {
