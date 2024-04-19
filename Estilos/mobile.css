@@ -1,0 +1,80 @@
+section#cabeçalho {
+     margin: 0;
+     width: 100%;
+     display: block;
+}
+
+.botoesnav {
+     display: flex;
+     width: 100%;
+     background-color: #fff;
+     margin: 0;
+     background-color: rgb(5, 5, 15);
+     justify-content: center;
+     padding: 30px;
+}
+
+.botoesnav:hover {
+     transform: scale(1);
+}
+
+header {
+     display: none;
+}
+
+section.textsec {
+     display: flex;
+     justify-content: space-between;
+     font-size: 2em;
+     align-items: start;
+     background-color: #fff;
+}
+
+.textsec > h1 {
+     margin: 0 40px;
+     font-size: 1.4em;
+     padding: 30px;
+}
+
+.textsec > h1#hamburger {
+     font-size: 2em;
+}
+
+nav {
+     width: 100vw;
+     display: flex;
+     flex-direction: column;
+}
+
+nav > button{
+     margin: 20px;
+}
+
+nav > h1.mp {
+     display: inline-flex;
+     width: 40px;
+}
+
+nav > h1 {
+     justify-content: space-around;
+}
+
+nav > h1#hamburger {
+     align-self: end;
+     display: flex;
+     justify-self: end;
+     width: 50px;
+     height: 50px;
+     justify-content: center;
+     align-items: center;
+     font-size: 3.4em;
+     border-radius: 5px;
+     padding: 5px;
+}
+
+nav > h1#hamburger:hover {
+     cursor: pointer;
+     background-color: #fff;
+     transition-duration: 0.2s;
+     color: #000;
+}
